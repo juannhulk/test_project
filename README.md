@@ -5,4 +5,8 @@
 
 File bisa diakses di [London Underground Stations & Usage Kaggle](https://www.kaggle.com/datasets/jonbown/london-tube-station-usage?resource=download&select=2017_Entry_Exit.csv)
 #### Data yang diambil hanya dari tahun 2016 dan 2017 saja (for assignment purpose) 
-<img width="1189" height="590" alt="image" src="https://github.com/user-attachments/assets/9772c371-d8d8-4905-9e48-1ff3116e29e4" />
+Step-by-step:
+- Menggabungkan kedua data csv 2016 dan 2017
+- Mencari 10 Borough teratas dengan volume penumpang tertinggi dalam 2 periode tersebut
+- 
+- 
