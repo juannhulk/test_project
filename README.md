@@ -26,60 +26,48 @@ Step-by-step:
 
 ### 🚇 Analisis Perilaku Penumpang: Komuter vs Rekreasi
 
-Analisis ini bertujuan untuk memetakan fungsi utama setiap stasiun London Tube dengan membandingkan rasio volume penumpang di akhir pekan terhadap hari kerja. Pendekatan ini mengungkap dua karakteristik stasiun yang saling bertolak belakang.
-
----
-#### 1. Beban Utama Jaringan: Stasiun Karakteristik Komuter
-Sebagian besar stasiun dengan volume hari kerja tertinggi mengalami penurunan penumpang yang sangat drastis pada hari Sabtu dan Minggu (Rasio < 0.5).
-
-#### 🏢 Top 10 Stasiun Dominan Komuter (Trafik Hari Kerja Sangat Sibuk)
-
-| Station | Borough | Total Hari Kerja | Total Akhir Pekan | Rasio Rekreasi |
-| :--- | :--- | :--- | :--- | :--- |
-| **Moorgate** | City of London | 46,698 | 9,784 | 0.21 |
-| **Moorgate** | City of London | 48,408 | 10,663 | 0.22 |
-| **Farringdon** | Islington | 31,421 | 10,505 | 0.33 |
-| **Farringdon** | Islington | 36,844 | 12,618 | 0.34 |
-| **Chancery Lane** | City of London | 31,085 | 12,137 | 0.39 |
-| **Chancery Lane** | City of London | 32,922 | 13,075 | 0.40 |
-| **Cannon Street** | City of London | 18,732 | 7,477 | 0.40 |
-| **Mansion House** | City of London | 11,584 | 4,812 | 0.42 |
-| **Bank & Monument** | City of London | 112,547 | 47,320 | 0.42 |
-| **Cannon Street** | City of London | 17,881 | 8,058 | 0.45 |
-
-
-<img width="989" height="590" alt="image" src="https://github.com/user-attachments/assets/b8433dc3-6a89-40ca-983e-124e7634378f" />
-
-*Insight: Hampir seluruh stasiun komuter terpadat berlokasi di distrik finansial dan perkantoran utama (City of London dan sekitarnya). Volume penumpang anjlok hingga 80% pada hari Sabtu dan Minggu.*
-
-
-### 📊 Top 10 Stasiun Dominan Rekreasi (Akhir Pekan Tinggi)
-
-Analisis ini mengklasifikasikan stasiun berdasarkan rasio penumpang akhir pekan dibandingkan hari kerja. Berkebalikan dengan tren komuter, terdapat kelompok stasiun minoritas yang justru menampung beban tertingginya saat mayoritas stasiun lain sedang sepi (Rasio > 1.0).
-
+Analisis ini mengklasifikasikan stasiun berdasarkan rasio penumpang akhir pekan dibandingkan hari kerja. 
 * **Rasio > 1.0**: Stasiun didominasi aktivitas akhir pekan (Karakteristik Rekreasi/Turis/Transit Khusus).
 * **Rasio < 0.5**: Stasiun didominasi aktivitas hari kerja (Karakteristik Komuter/Perkantoran).
 
-<img width="1389" height="690" alt="image" src="https://github.com/user-attachments/assets/dc9aca12-cb1b-4eae-9925-75d123b9f3ce" />
 
-#### 🌳 Top 10 Stasiun Dominan Rekreasi (Trafik Akhir Pekan Tinggi)
+### 🚇 Top 10 Stasiun Komuter (Volume Hari Kerja Tertinggi & Rasio Akhir Pekan Rendah)
 
 | Station | Borough | Total Hari Kerja | Total Akhir Pekan | Rasio Rekreasi |
 | :--- | :--- | :--- | :--- | :--- |
-| **Kensington (Olympia)** | Kensington and Chelsea | 1,645 | 11,337 | 6.89 |
-| **Kensington (Olympia)** | Kensington and Chelsea | 1,640 | 11,122 | 6.78 |
-| **Mornington Crescent** | Camden | 7,736 | 18,603 | 2.40 |
-| **Heathrow Terminal 4** | Hillingdon | 3,200 | 7,566 | 2.36 |
-| **Leicester Square** | City of Westminster | 51,298 | 118,996 | 2.32 |
-| **Leicester Square** | City of Westminster | 49,948 | 113,019 | 2.26 |
-| **Heathrow Terminals 123**| Hillingdon | 11,046 | 24,635 | 2.23 |
-| **Heathrow Terminals 123**| Hillingdon | 11,347 | 24,886 | 2.19 |
-| **Heathrow Terminal 5** | Hillingdon | 6,482 | 14,163 | 2.18 |
-| **Heathrow Terminal 4** | Hillingdon | 3,253 | 6,913 | 2.13 |
+| **Bank & Monument** | City of London | 230,187 | 101,544 | 0.44 |
+| **Moorgate** | City of London | 95,106 | 20,447 | 0.21 |
+| **Farringdon** | Islington | 68,265 | 23,123 | 0.34 |
+| **Chancery Lane** | City of London | 64,007 | 25,212 | 0.39 |
+| **St. James's Park** | City of Westminster | 52,605 | 27,432 | 0.52 |
+| **Cannon Street** | City of London | 36,613 | 15,535 | 0.42 |
+| **Aldgate** | City of London | 29,292 | 14,818 | 0.51 |
+| **Mansion House** | City of London | 22,880 | 9,928 | 0.43 |
+| **Upminster Bridge** | Havering | 4,177 | 2,209 | 0.53 |
+| **Chigwell** | Epping Forest | 2,116 | 1,116 | 0.53 |
 
-*Insight: Stasiun Kensington (Olympia) memiliki anomali rasio tertinggi (hampir 7x lipat di akhir pekan), yang sejalan dengan fungsinya sebagai pusat ekshibisi. Dominasi stasiun Heathrow juga menunjukkan karakteristik penumpang pesawat/turis.*
+<img width="1389" height="690" alt="image" src="https://github.com/user-attachments/assets/9a812a65-477d-4c37-ae6e-a3112b31bbec" />
 
 
+---
 
-**Insight Analitik:**
-Kensington (Olympia) menampilkan anomali rasio tertinggi (hampir 7x lipat lebih padat di akhir pekan), yang sangat selaras dengan fungsinya sebagai pusat pameran dan acara. Selain itu, kehadiran stasiun-stasiun Heathrow di daftar ini menunjukkan karakteristik lalu lintas turis dan pelancong udara yang jadwalnya tidak terikat pada hari kerja standar.
+### 🎡 Top 10 Stasiun Rekreasi (Rasio Lonjakan Akhir Pekan Tertinggi)
+
+| Station | Borough | Total Hari Kerja | Total Akhir Pekan | Rasio Rekreasi |
+| :--- | :--- | :--- | :--- | :--- |
+| **Kensington (Olympia)** | Kensington and Chelsea | 3,285 | 22,459 | 6.84 |
+| **Leicester Square** | City of Westminster | 101,246 | 232,015 | 2.29 |
+| **Heathrow Terminal 4** | Hillingdon | 6,453 | 14,479 | 2.24 |
+| **Mornington Crescent** | Camden | 15,604 | 34,953 | 2.24 |
+| **Heathrow Terminals 123**| Hillingdon | 22,393 | 49,521 | 2.21 |
+| **Heathrow Terminal 5** | Hillingdon | 13,141 | 28,289 | 2.15 |
+| **Covent Garden** | City of Westminster | 44,654 | 91,217 | 2.04 |
+| **Knightsbridge** | Kensington and Chelsea | 52,451 | 102,603 | 1.96 |
+| **Hyde Park Corner** | City of Westminster | 16,206 | 31,324 | 1.93 |
+| **Piccadilly Circus** | City of Westminster | 116,891 | 225,334 | 1.93 |
+
+<img width="1389" height="690" alt="image" src="https://github.com/user-attachments/assets/5d113241-3c06-45c4-8149-8c40b3dae3e7" />
+
+### Mobilitas penumpang London Tube tidak terdistribusi secara merata secara geografis, melainkan sangat terpusat pada distrik komersial dan wisata utama.
+## City of Westminster menanggung beban mobilitas tahunan tertinggi. Situasi ini mengindikasikan perlunya prioritas alokasi dana pemeliharaan pada wilayah-wilayah "timpang" tersebut.
+## Mobilitas Internasional: Kehadiran stasiun-stasiun Heathrow Terminal dalam daftar ini membuktikan bahwa titik transit bandara memiliki beban lalu lintas yang stabil di akhir pekan, terlepas dari siklus Senin-Jumat standar.
