@@ -24,6 +24,13 @@ Step-by-step:
 
 *Insight: Westminster memiliki total volume tertinggi, namun selisih yang ekstrem antara rata-rata (1.314) dan nilai tengah (196) menunjukkan bahwa volume tersebut didorong oleh segelintir stasiun transit raksasa, bukan kepadatan yang merata di 62 stasiunnya.*
 
+### 🚇 Analisis Perilaku Penumpang: Komuter vs Rekreasi
+
+Analisis ini bertujuan untuk memetakan fungsi utama setiap stasiun London Tube dengan membandingkan rasio volume penumpang di akhir pekan terhadap hari kerja. Pendekatan ini mengungkap dua karakteristik stasiun yang saling bertolak belakang.
+
+---
+#### 1. Beban Utama Jaringan: Stasiun Karakteristik Komuter
+Sebagian besar stasiun dengan volume hari kerja tertinggi mengalami penurunan penumpang yang sangat drastis pada hari Sabtu dan Minggu (Rasio < 0.5).
 
 #### 🏢 Top 10 Stasiun Dominan Komuter (Trafik Hari Kerja Sangat Sibuk)
 
@@ -40,14 +47,20 @@ Step-by-step:
 | **Bank & Monument** | City of London | 112,547 | 47,320 | 0.42 |
 | **Cannon Street** | City of London | 17,881 | 8,058 | 0.45 |
 
+
+<img width="989" height="590" alt="image" src="https://github.com/user-attachments/assets/b8433dc3-6a89-40ca-983e-124e7634378f" />
+
 *Insight: Hampir seluruh stasiun komuter terpadat berlokasi di distrik finansial dan perkantoran utama (City of London dan sekitarnya). Volume penumpang anjlok hingga 80% pada hari Sabtu dan Minggu.*
 
 
 ### 📊 Top 10 Stasiun Dominan Rekreasi (Akhir Pekan Tinggi)
 
-Analisis ini mengklasifikasikan stasiun berdasarkan rasio penumpang akhir pekan dibandingkan hari kerja. 
+Analisis ini mengklasifikasikan stasiun berdasarkan rasio penumpang akhir pekan dibandingkan hari kerja. Berkebalikan dengan tren komuter, terdapat kelompok stasiun minoritas yang justru menampung beban tertingginya saat mayoritas stasiun lain sedang sepi (Rasio > 1.0).
+
 * **Rasio > 1.0**: Stasiun didominasi aktivitas akhir pekan (Karakteristik Rekreasi/Turis/Transit Khusus).
 * **Rasio < 0.5**: Stasiun didominasi aktivitas hari kerja (Karakteristik Komuter/Perkantoran).
+
+<img width="1389" height="690" alt="image" src="https://github.com/user-attachments/assets/dc9aca12-cb1b-4eae-9925-75d123b9f3ce" />
 
 #### 🌳 Top 10 Stasiun Dominan Rekreasi (Trafik Akhir Pekan Tinggi)
 
@@ -65,3 +78,8 @@ Analisis ini mengklasifikasikan stasiun berdasarkan rasio penumpang akhir pekan 
 | **Heathrow Terminal 4** | Hillingdon | 3,253 | 6,913 | 2.13 |
 
 *Insight: Stasiun Kensington (Olympia) memiliki anomali rasio tertinggi (hampir 7x lipat di akhir pekan), yang sejalan dengan fungsinya sebagai pusat ekshibisi. Dominasi stasiun Heathrow juga menunjukkan karakteristik penumpang pesawat/turis.*
+
+
+
+**Insight Analitik:**
+Kensington (Olympia) menampilkan anomali rasio tertinggi (hampir 7x lipat lebih padat di akhir pekan), yang sangat selaras dengan fungsinya sebagai pusat pameran dan acara. Selain itu, kehadiran stasiun-stasiun Heathrow di daftar ini menunjukkan karakteristik lalu lintas turis dan pelancong udara yang jadwalnya tidak terikat pada hari kerja standar.
