@@ -12,7 +12,6 @@ Step-by-step:
 - Analisis Perilaku Penumpang: Komuter vs Rekreasi pada weekday vs weekend
 
 ### 📊 Top 5 Borough dengan Volume Penumpang Tertinggi
-<img width="1189" height="590" alt="image" src="https://github.com/user-attachments/assets/a390ea21-091c-438d-8104-14912b23c760" />
 
 | Borough | Total Volume (Juta) | Rata-Rata (Juta) | Nilai Tengah (Juta) | Jumlah Stasiun |
 | :--- | :--- | :--- | :--- | :--- |
@@ -22,6 +21,9 @@ Step-by-step:
 | **Lambeth** | 23,514.42 | 1,469.65 | 279.12 | 16 |
 | **Kensington and Chelsea**| 19,181.83 | 799.24 | 155.06 | 24 |
 
+
+<img width="1189" height="590" alt="image" src="https://github.com/user-attachments/assets/a390ea21-091c-438d-8104-14912b23c760" />
+
 *Insight: Westminster memiliki total volume tertinggi, namun selisih yang ekstrem antara rata-rata (1.314) dan nilai tengah (196) menunjukkan bahwa volume tersebut didorong oleh segelintir stasiun transit raksasa, bukan kepadatan yang merata di 62 stasiunnya.*
 
 ### 🚇 Analisis Perilaku Penumpang: Komuter vs Rekreasi
@@ -29,7 +31,6 @@ Step-by-step:
 Analisis ini mengklasifikasikan stasiun berdasarkan rasio penumpang akhir pekan dibandingkan hari kerja. 
 * **Rasio > 1.0**: Stasiun didominasi aktivitas akhir pekan (Karakteristik Rekreasi/Turis/Transit Khusus).
 * **Rasio < 0.5**: Stasiun didominasi aktivitas hari kerja (Karakteristik Komuter/Perkantoran).
-
 
 ### 🚇 Top 10 Stasiun Komuter (Volume Hari Kerja Tertinggi & Rasio Akhir Pekan Rendah)
 
@@ -50,6 +51,9 @@ Analisis ini mengklasifikasikan stasiun berdasarkan rasio penumpang akhir pekan 
 
 
 ---
+Analisis ini mengklasifikasikan stasiun berdasarkan rasio penumpang akhir pekan dibandingkan hari kerja. 
+* **Rasio > 1.0**: Stasiun didominasi aktivitas akhir pekan (Karakteristik Rekreasi/Turis/Transit Khusus).
+* **Rasio < 0.5**: Stasiun didominasi aktivitas hari kerja (Karakteristik Komuter/Perkantoran).
 
 ### 🎡 Top 10 Stasiun Rekreasi (Rasio Lonjakan Akhir Pekan Tertinggi)
 
