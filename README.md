@@ -7,6 +7,7 @@ File bisa diakses di [London Underground Stations & Usage Kaggle](https://www.ka
 #### Data yang diambil hanya dari tahun 2016 dan 2017 saja (for assignment purpose) 
 Step-by-step:
 - Menggabungkan kedua data csv 2016 dan 2017
+- Menggabungkan baris yang mengandung white space agar data lebih mudah dipahami
 - Mencari 5 Borough teratas dengan volume penumpang tertinggi dalam 2 periode tersebut
 - Analisis Perilaku Penumpang: Komuter vs Rekreasi pada weekday vs weekend
 - Analisis Aliran Massa Entry vs Exit untuk melihat apakah volume orang yang masuk sama dengan jumlah yang keluar
