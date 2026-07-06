@@ -68,6 +68,6 @@ Analisis ini mengklasifikasikan stasiun berdasarkan rasio penumpang akhir pekan 
 
 <img width="1389" height="690" alt="image" src="https://github.com/user-attachments/assets/5d113241-3c06-45c4-8149-8c40b3dae3e7" />
 
-### Mobilitas penumpang London Tube tidak terdistribusi secara merata secara geografis, melainkan sangat terpusat pada distrik komersial dan wisata utama.
-## City of Westminster menanggung beban mobilitas tahunan tertinggi. Situasi ini mengindikasikan perlunya prioritas alokasi dana pemeliharaan pada wilayah-wilayah "timpang" tersebut.
-## Mobilitas Internasional: Kehadiran stasiun-stasiun Heathrow Terminal dalam daftar ini membuktikan bahwa titik transit bandara memiliki beban lalu lintas yang stabil di akhir pekan, terlepas dari siklus Senin-Jumat standar.
+## Mobilitas penumpang London Tube tidak terdistribusi secara merata secara geografis, melainkan sangat terpusat pada distrik komersial dan wisata utama.
+### - City of Westminster menanggung beban mobilitas tahunan tertinggi. Situasi ini mengindikasikan perlunya prioritas alokasi dana pemeliharaan pada wilayah-wilayah "timpang" tersebut.
+### - Mobilitas Internasional: Kehadiran stasiun-stasiun Heathrow Terminal dalam daftar ini membuktikan bahwa titik transit bandara memiliki beban lalu lintas yang stabil di akhir pekan, terlepas dari siklus Senin-Jumat standar.
