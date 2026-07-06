@@ -10,7 +10,6 @@ Step-by-step:
 - Menggabungkan baris yang mengandung white space agar data lebih mudah dipahami
 - Mencari 5 Borough teratas dengan volume penumpang tertinggi dalam 2 periode tersebut
 - Analisis Perilaku Penumpang: Komuter vs Rekreasi pada weekday vs weekend
-- Analisis Aliran Massa Entry vs Exit untuk melihat apakah volume orang yang masuk sama dengan jumlah yang keluar
 
 ### 📊 Top 5 Borough dengan Volume Penumpang Tertinggi
 <img width="1189" height="590" alt="image" src="https://github.com/user-attachments/assets/a390ea21-091c-438d-8104-14912b23c760" />
