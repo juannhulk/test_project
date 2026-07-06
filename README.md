@@ -24,6 +24,25 @@ Step-by-step:
 
 *Insight: Westminster memiliki total volume tertinggi, namun selisih yang ekstrem antara rata-rata (1.314) dan nilai tengah (196) menunjukkan bahwa volume tersebut didorong oleh segelintir stasiun transit raksasa, bukan kepadatan yang merata di 62 stasiunnya.*
 
+
+#### 🏢 Top 10 Stasiun Dominan Komuter (Trafik Hari Kerja Sangat Sibuk)
+
+| Station | Borough | Total Hari Kerja | Total Akhir Pekan | Rasio Rekreasi |
+| :--- | :--- | :--- | :--- | :--- |
+| **Moorgate** | City of London | 46,698 | 9,784 | 0.21 |
+| **Moorgate** | City of London | 48,408 | 10,663 | 0.22 |
+| **Farringdon** | Islington | 31,421 | 10,505 | 0.33 |
+| **Farringdon** | Islington | 36,844 | 12,618 | 0.34 |
+| **Chancery Lane** | City of London | 31,085 | 12,137 | 0.39 |
+| **Chancery Lane** | City of London | 32,922 | 13,075 | 0.40 |
+| **Cannon Street** | City of London | 18,732 | 7,477 | 0.40 |
+| **Mansion House** | City of London | 11,584 | 4,812 | 0.42 |
+| **Bank & Monument** | City of London | 112,547 | 47,320 | 0.42 |
+| **Cannon Street** | City of London | 17,881 | 8,058 | 0.45 |
+
+*Insight: Hampir seluruh stasiun komuter terpadat berlokasi di distrik finansial dan perkantoran utama (City of London dan sekitarnya). Volume penumpang anjlok hingga 80% pada hari Sabtu dan Minggu.*
+
+
 ### 📊 Top 10 Stasiun Dominan Rekreasi (Akhir Pekan Tinggi)
 
 Analisis ini mengklasifikasikan stasiun berdasarkan rasio penumpang akhir pekan dibandingkan hari kerja. 
@@ -46,20 +65,3 @@ Analisis ini mengklasifikasikan stasiun berdasarkan rasio penumpang akhir pekan 
 | **Heathrow Terminal 4** | Hillingdon | 3,253 | 6,913 | 2.13 |
 
 *Insight: Stasiun Kensington (Olympia) memiliki anomali rasio tertinggi (hampir 7x lipat di akhir pekan), yang sejalan dengan fungsinya sebagai pusat ekshibisi. Dominasi stasiun Heathrow juga menunjukkan karakteristik penumpang pesawat/turis.*
-
-#### 🏢 Top 10 Stasiun Dominan Komuter (Trafik Hari Kerja Sangat Sibuk)
-
-| Station | Borough | Total Hari Kerja | Total Akhir Pekan | Rasio Rekreasi |
-| :--- | :--- | :--- | :--- | :--- |
-| **Moorgate** | City of London | 46,698 | 9,784 | 0.21 |
-| **Moorgate** | City of London | 48,408 | 10,663 | 0.22 |
-| **Farringdon** | Islington | 31,421 | 10,505 | 0.33 |
-| **Farringdon** | Islington | 36,844 | 12,618 | 0.34 |
-| **Chancery Lane** | City of London | 31,085 | 12,137 | 0.39 |
-| **Chancery Lane** | City of London | 32,922 | 13,075 | 0.40 |
-| **Cannon Street** | City of London | 18,732 | 7,477 | 0.40 |
-| **Mansion House** | City of London | 11,584 | 4,812 | 0.42 |
-| **Bank & Monument** | City of London | 112,547 | 47,320 | 0.42 |
-| **Cannon Street** | City of London | 17,881 | 8,058 | 0.45 |
-
-*Insight: Hampir seluruh stasiun komuter terpadat berlokasi di distrik finansial dan perkantoran utama (City of London dan sekitarnya). Volume penumpang anjlok hingga 80% pada hari Sabtu dan Minggu.*
